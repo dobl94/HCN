@@ -3,13 +3,13 @@
    // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
 
     // the link to your model provided by Teachable Machine export panel
-   	const URL = 'https://drive.google.com/drive/folders/1xigTe0ZXQGkxBaQUgzBUJk7xvcxDMxd9?usp=sharing/my_model/'
+   	const checkpoint = 'https://drive.google.com/drive/folders/1xigTe0ZXQGkxBaQUgzBUJk7xvcxDMxd9?usp=sharing/my_model/'
  
     let model, webcam, ctx, labelContainer, maxPredictions;
 
     async function init() {
-        const modelURL = URL + "model.json";
-        const metadataURL = URL + "metadata.json";
+        const modelURL = checkpoint + "model.json";
+        const metadataURL = checkpoint + "metadata.json";
 
         // load the model and metadata
         // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
