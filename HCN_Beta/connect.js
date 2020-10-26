@@ -32,9 +32,9 @@
         canvas.width = size; canvas.height = size;
         ctx = canvas.getContext("2d");
         labelContainer = document.getElementById("label-container");
-        for (let i = 0; i < maxPredictions; i++) { // and class labels
-           labelContainer.appendChild(document.createElement("div"));
-        }
+        //for (let i = 0; i < maxPredictions; i++) { // and class labels
+        //   labelContainer.appendChild(document.createElement("div"));
+        //}
 		
     }
 
