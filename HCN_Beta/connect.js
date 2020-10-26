@@ -1,9 +1,10 @@
 	var unityInstance = UnityLoader.instantiate("unityContainer", "Build/HCN_Beta.json", {onProgress: UnityProgress});
-   // More API functions here:
-    // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
+	// More API functions here:
+   // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./my_model/";
+   	const URL = 'https://drive.google.com/drive/folders/1xigTe0ZXQGkxBaQUgzBUJk7xvcxDMxd9?usp=sharing/my_model/'
+ 
     let model, webcam, ctx, labelContainer, maxPredictions;
 
     async function init() {
