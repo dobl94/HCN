@@ -28,9 +28,9 @@
         window.requestAnimationFrame(loop);
 
         // append/get elements to the DOM
-        //const canvas = document.getElementById("canvas");
-        //canvas.width = size; canvas.height = size;
-        //ctx = canvas.getContext("2d");
+        const canvas = document.getElementById("canvas");
+        canvas.width = size; canvas.height = size;
+        ctx = canvas.getContext("2d");
         //labelContainer = document.getElementById("label-container");
         //for (let i = 0; i < maxPredictions; i++) { // and class labels
         //   labelContainer.appendChild(document.createElement("div"));
