@@ -3,8 +3,8 @@
    // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
 
     // the link to your model provided by Teachable Machine export panel
-   	const checkpoint = 'https://drive.google.com/drive/folders/1xigTe0ZXQGkxBaQUgzBUJk7xvcxDMxd9?usp=sharing/my_model/'
- 
+   	//const checkpoint = 'https://drive.google.com/drive/folders/1xigTe0ZXQGkxBaQUgzBUJk7xvcxDMxd9?usp=sharing/my_model/'
+    const checkpoint = 'https://github.com/dobl94/HCN/tree/main/HCN_Beta/my_model/'
     let model, webcam, ctx, labelContainer, maxPredictions;
 
     async function init() {
