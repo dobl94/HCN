@@ -24,8 +24,8 @@
 		webcam = new tmPose.Webcam(size, size, flip); // width, height, flip
         
 		await webcam.setup(); // request access to the webcam
-        //await webcam.play();	
-        //window.requestAnimationFrame(loop);
+        await webcam.play();	
+        window.requestAnimationFrame(loop);
 
         // append/get elements to the DOM
         //const canvas = document.getElementById("canvas");
