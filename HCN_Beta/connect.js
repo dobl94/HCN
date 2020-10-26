@@ -23,7 +23,7 @@
         
 		webcam = new tmPose.Webcam(size, size, flip); // width, height, flip
         
-		//await webcam.setup(); // request access to the webcam
+		await webcam.setup(); // request access to the webcam
         //await webcam.play();	
         //window.requestAnimationFrame(loop);
 
