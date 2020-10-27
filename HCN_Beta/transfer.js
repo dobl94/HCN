@@ -56,8 +56,9 @@
             const classPrediction =
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
+	    move(prediction);
         }
-
+	
         // finally draw the poses
         drawPose(pose);
     }
@@ -78,7 +79,7 @@
        
         let codeV = "";
 	let codeH = "";
-	    if(labelContainer.childNodes[i].innerHTML== 1 ){
+	    if(labelContainer.childNodes[0].innerHTML== "walk: 1.00" ){
 	       	codeH="right";
 	       console.log("right pressed");
 	       }
