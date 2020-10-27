@@ -84,15 +84,15 @@
 	       	codeH="right";
 	       console.log("right pressed");
 	    }
-	    if(labelContainer.childNodes[1].innerHTML== "squat: 1.00" ){
+	    else if(labelContainer.childNodes[1].innerHTML== "squat: 1.00" ){
 	       	codeV="down";
 	       console.log("down pressed");
 	    }
-	    if(labelContainer.childNodes[1].innerHTML== "jump: 1.00" ){
+	    else if(labelContainer.childNodes[1].innerHTML== "jump: 1.00" ){
 	       	codeV="up";
 	       console.log("up pressed");
 	    }
-	    if(labelContainer.childNodes[1].innerHTML== "bend: 1.00" ){
+	    else if(labelContainer.childNodes[1].innerHTML== "bend: 1.00" ){
 	       	codeX="X";
 	       console.log("X pressed");
 	    }
