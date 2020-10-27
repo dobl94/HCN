@@ -88,11 +88,11 @@
 	       	codeV="down";
 	       console.log("down pressed");
 	    }
-	    else if(labelContainer.childNodes[1].innerHTML== "jump: 1.00" ){
+	    else if(labelContainer.childNodes[2].innerHTML== "jump: 1.00" ){
 	       	codeV="up";
 	       console.log("up pressed");
 	    }
-	    else if(labelContainer.childNodes[1].innerHTML== "bend: 1.00" ){
+	    else if(labelContainer.childNodes[3].innerHTML== "bend: 1.00" ){
 	       	codeX="X";
 	       console.log("X pressed");
 	    }
