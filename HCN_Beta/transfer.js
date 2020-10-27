@@ -102,8 +102,8 @@
 		codeX="";
 	    }
 	if(gameInstance != null){
-	    gameInstance.SendMessage("Player","Device Tracker", codeV);
-	    gameInstance.SendMessage("Player","Device Tracker", codeH);
-	    gameInstance.SendMessage("Player","Device Tracker", codeX);
+	    gameInstance.SendMessage("Player","Keyboard Tracker", codeV);
+	    gameInstance.SendMessage("Player","Keyboard Tracker", codeH);
+	    gameInstance.SendMessage("Player","Keyboard Tracker", codeX);
 	}
     }
