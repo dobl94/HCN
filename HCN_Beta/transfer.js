@@ -79,7 +79,7 @@
        
         let codeV = "";
 	let codeH = "";
-	    if(labelContainer.childNodes[0].innerHTML== "walk: 1.00" ){
+	    if(labelContainer.childNodes[1].innerHTML== "squat: 1.00" ){
 	       	codeH="right";
 	       console.log("right pressed");
 	       }
