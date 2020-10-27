@@ -102,8 +102,8 @@
 		codeC="";
 	    }
 	if(gameInstance != null){
-	    gameInstance.SendMessage("webcam","setV", codeV);
-	    gameInstance.SendMessage("webcam","setH", codeH);
-	    gameInstance.SendMessage("webcam","setX", codeC);
+	    gameInstance.SendMessage("webcamManager","setV", codeV);
+	    gameInstance.SendMessage("webcamManager","setH", codeH);
+	    gameInstance.SendMessage("webcamManager","setX", codeC);
 	}
     }
