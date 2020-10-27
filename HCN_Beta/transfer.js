@@ -87,7 +87,7 @@
 	    	codeV="";
 	    }
 	if(gameInstance != null){
-	    gameInstance.SendMessage("lp_guy","SetV",codeV);
-	    gameInstance.SendMessage("lp_guy","SetH", codeH);
+	   // gameInstance.SendMessage("lp_guy","SetV",codeV);
+	   // gameInstance.SendMessage("lp_guy","SetH", codeH);
 	}
     }
