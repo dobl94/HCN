@@ -73,3 +73,20 @@
             }
         }
     }
+    
+    function move(prediction){
+       
+        let codeV = "";
+	let codeH = "";
+	    if(labelContainer.childNodes[i].innerHTML== 1 ){
+	       	codeH="right";
+	       console.log("right pressed");
+	       }
+	    else{
+	    	codeV="";
+	    }
+	if(gameInstance != null){
+	    gameInstance.SendMessage("lp_guy","SetV",codeV);
+	    gameInstance.SendMessage("lp_guy","SetH", codeH);
+	}
+    }
