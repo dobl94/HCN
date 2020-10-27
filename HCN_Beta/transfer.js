@@ -79,7 +79,7 @@
        
         let codeV = "";
 	let codeH = "";
-	let codeX = "";
+	let codeC = "";
 	    if(labelContainer.childNodes[0].innerHTML== "walk: 1.00" ){
 	       	codeH="right";
 	       console.log("right pressed");
@@ -93,17 +93,17 @@
 	       console.log("up pressed");
 	    }
 	    else if(labelContainer.childNodes[3].innerHTML== "bend: 1.00" ){
-	       	codeX="X";
-	       console.log("X pressed");
+	       	codeC="left ctrl";
+	       console.log("left control pressed");
 	    }
 	    else{
 	    	codeV="";
 		codeH="";
-		codeX="";
+		codeC="";
 	    }
 	if(gameInstance != null){
-	    gameInstance.SendMessage("Player","WebcamTracker", codeV);
-	    gameInstance.SendMessage("Player","WebcamTracker", codeH);
-	    gameInstance.SendMessage("Player","WebcamTracker", codeX);
+	    gameInstance.SendMessage("Player","setV", codeV);
+	    gameInstance.SendMessage("Player","setH", codeH);
+	    gameInstance.SendMessage("Player","setX", codeC);
 	}
     }
