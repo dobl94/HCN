@@ -85,6 +85,7 @@
 	       }
 	    else{
 	    	codeV="";
+		codeH="";
 	    }
 	if(gameInstance != null){
 	    gameInstance.SendMessage("Player","Device Tracker", codeV);
