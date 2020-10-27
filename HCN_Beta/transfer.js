@@ -102,8 +102,8 @@
 		codeX="";
 	    }
 	if(gameInstance != null){
-	    gameInstance.SendMessage("Player","Device Tracker", codeV);
-	    gameInstance.SendMessage("Player","Device Tracker", codeH);
-	    gameInstance.SendMessage("Player","Device Tracker", codeX);
+	    gameInstance.SendMessage("Player","WebcamTracker", codeV);
+	    gameInstance.SendMessage("Player","WebcamTracker", codeH);
+	    gameInstance.SendMessage("Player","WebcamTracker", codeX);
 	}
     }
