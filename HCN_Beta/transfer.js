@@ -1,4 +1,4 @@
-	var unityInstance = UnityLoader.instantiate("unityContainer", "Build/HCN_Beta.json", {onProgress: UnityProgress});
+	var gameinstance = UnityLoader.instantiate("unityContainer", "Build/HCN_Beta.json", {onProgress: UnityProgress});
 	// More API functions here:
    // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
 
