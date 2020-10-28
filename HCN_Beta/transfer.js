@@ -103,7 +103,7 @@
 	    }
 	if(gameInstance != null){
 	    gameInstance.SendMessage("player","setV", codeV);
-	    gameInstance.SendMessage("playerr","setH", codeH);
+	    gameInstance.SendMessage("player","setH", codeH);
 	    //gameInstance.SendMessage("webcamManager","setX", codeC);
 	}
     }
