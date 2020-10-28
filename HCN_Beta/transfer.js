@@ -56,9 +56,9 @@
             const classPrediction =
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
-	    move(prediction);
+	    
         }
-	
+	move(prediction);
         // finally draw the poses
         drawPose(pose);
     }
