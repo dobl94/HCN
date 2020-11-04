@@ -102,8 +102,8 @@
 		//codeC="";
 	    }
 	if(gameInstance != null){
-	    gameInstance.SendMessage("Walker","setV", codeV);
-	    gameInstance.SendMessage("Walker","setH", codeH);
+	    gameInstance.SendMessage("sanuy","setV", codeV);
+	    gameInstance.SendMessage("sanuy","setH", codeH);
 	    //gameInstance.SendMessage("webcamManager","setX", codeC);
 	}
     }
